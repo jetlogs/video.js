@@ -1,7 +1,7 @@
 {
   "name": "video.js",
   "description": "An HTML5 and Flash video player with a common API and skin for both.",
-  "version": "5.20.1",
+  "version": "5.20.1-jet",
   "main": "./es5/video.js",
   "style": "./dist/video-js.css",
   "copyright": "Copyright Brightcove, Inc. <https://www.brightcove.com/>",
@@ -139,5 +139,8 @@
     "ghooks": {
       "pre-push": "npm run lint -- --errors"
     }
+  },
+  "publishConfig": {
+    "registry": "http://admin.babelcentral.com:10090/repository/npm-internal/"
   }
 }
